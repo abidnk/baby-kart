@@ -124,108 +124,108 @@ export default function Footer() {
         <section className="">
           <MDBRow>
             <MDBCol lg="3" md="6" className="mb-4 mb-md-0">
-              <h5 className="text-uppercase">Links</h5>
+              <h5 className="text-uppercase">Keep In Touch</h5>
 
               <ul className="list-unstyled mb-0">
                 <li>
                   <a href="#!" className="text-white">
-                    Link 1
+                  • Baby-Kart/instagram.com 
                   </a>
                 </li>
                 <li>
                   <a href="#!" className="text-white">
-                    Link 2
+                  • Baby-Kart/facebook.com 
                   </a>
                 </li>
                 <li>
                   <a href="#!" className="text-white">
-                    Link 3
+                  • Baby-Kart/twitter.com 
                   </a>
                 </li>
                 <li>
                   <a href="#!" className="text-white">
-                    Link 4
+                  • Baby-Kart/instagram.com 
                   </a>
                 </li>
               </ul>
             </MDBCol>
 
             <MDBCol lg="3" md="6" className="mb-4 mb-md-0">
-              <h5 className="text-uppercase">Links</h5>
+              <h5 className="text-uppercase">Contact us</h5>
 
               <ul className="list-unstyled mb-0">
                 <li>
                   <a href="#!" className="text-white">
-                    Link 1
+                  • Ph:0435-22554488
                   </a>
                 </li>
                 <li>
                   <a href="#!" className="text-white">
-                    Link 2
+                  • Mobile:+91 91055 6628
                   </a>
                 </li>
                 <li>
                   <a href="#!" className="text-white">
-                    Link 3
+                  • Email: babykart@gmal.com
                   </a>
                 </li>
                 <li>
                   <a href="#!" className="text-white">
-                    Link 4
+                  • Fax: 4152875595
                   </a>
                 </li>
               </ul>
             </MDBCol>
 
             <MDBCol lg="3" md="6" className="mb-4 mb-md-0">
-              <h5 className="text-uppercase">Links</h5>
+              <h5 className="text-uppercase">Office</h5>
 
               <ul className="list-unstyled mb-0">
                 <li>
                   <a href="#!" className="text-white">
-                    Link 1
+                    Street No. 2213
                   </a>
                 </li>
                 <li>
                   <a href="#!" className="text-white">
-                    Link 2
+                    Chola Street
                   </a>
                 </li>
                 <li>
                   <a href="#!" className="text-white">
-                    Link 3
+                    Bhopal
                   </a>
                 </li>
                 <li>
                   <a href="#!" className="text-white">
-                    Link 4
+                    India - 672545
                   </a>
                 </li>
               </ul>
             </MDBCol>
 
             <MDBCol lg="3" md="6" className="mb-4 mb-md-0">
-              <h5 className="text-uppercase">Links</h5>
+              <h5 className="text-uppercase">Official Partners:</h5>
 
               <ul className="list-unstyled mb-0">
                 <li>
-                  <a href="#!" className="text-white">
-                    Link 1
+                  <a href="https://mamaearth.in/" className="text-white">
+                  • MamaEarth
                   </a>
                 </li>
                 <li>
-                  <a href="#!" className="text-white">
-                    Link 2
+                  <a href="https://themomsco.com/" className="text-white">
+                  • the moms co
                   </a>
                 </li>
                 <li>
-                  <a href="#!" className="text-white">
-                    Link 3
+                  <a href="https://www.babycarestores.in/" className="text-white">
+                  • Babycare
                   </a>
                 </li>
                 <li>
-                  <a href="#!" className="text-white">
-                    Link 4
+                  <a href="https://www.mothercare.in/" className="text-white">
+                  • MotherCare
                   </a>
                 </li>
               </ul>
@@ -239,8 +239,8 @@ export default function Footer() {
         style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
       >
         © 2020 Copyright:
-        <a className="text-white" href="https://mdbootstrap.com/">
-          MDBootstrap.com
+        <a className="text-white" href="https://baby-kart.netlify.app">
+          Baby-kart.netlify.com
         </a>
       </div>
     </MDBFooter>
