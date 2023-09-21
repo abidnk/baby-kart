@@ -44,7 +44,7 @@ export default function Payment() {
                         id="form1"
                         type="text"
                         size="lg"
-                        value="**** **** **** 3193"
+                        
                       />
                     </div>
                   </div>
@@ -62,7 +62,7 @@ export default function Payment() {
                         id="form2"
                         type="text"
                         size="lg"
-                        value="**** **** **** 4296"
+                        
                       />
                     </div>
                   </div>
@@ -74,7 +74,7 @@ export default function Payment() {
                   id="form3"
                   type="text"
                   size="lg"
-                  value="Anna Doe"
+                  
                 />
                 <MDBRow className="my-4">
                   <MDBCol size="7">
@@ -83,7 +83,7 @@ export default function Payment() {
                       id="form4"
                       type="text"
                       size="lg"
-                      value="1234 5678 1234 5678"
+                      
                     />
                   </MDBCol>
                   <MDBCol size="3">

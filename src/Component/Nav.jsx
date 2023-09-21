@@ -72,7 +72,7 @@ export default function Nav({ size }) {
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink href="/register#">Register</MDBNavbarLink>
+                <MDBNavbarLink onClick={()=>{navigate("/register")}}>Register</MDBNavbarLink>
               </MDBNavbarItem>
 
               <MDBNavbarItem>

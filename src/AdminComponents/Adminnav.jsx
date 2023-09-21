@@ -82,7 +82,7 @@ export default function Adminnav({ size }) {
               <MDBDropdownMenu>
                 <MDBDropdownItem link onClick={() => navigate("/admuser")}>Profile</MDBDropdownItem>
                 <MDBDropdownItem link>Settings</MDBDropdownItem>
-                <MDBDropdownItem link href="/register">Sign Out</MDBDropdownItem>
+                <MDBDropdownItem link onClick={() => navigate("/register")}>Sign Out</MDBDropdownItem>
               </MDBDropdownMenu>
             </MDBDropdown>
           </MDBCollapse>

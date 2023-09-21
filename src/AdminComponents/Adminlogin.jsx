@@ -67,7 +67,7 @@ function Adminlogin() {
               </div>
 
               <div>
-                <p className="mb-0">Don't have an account? <a href="#!" class="text-white-50 fw-bold">Sign Up</a></p>
+                <p className="mb-0">Not an Admin?<a onClick={()=>{navigate("/register")}} class="text-white-50 fw-bold">Go back</a></p>
 
               </div>
             </MDBCardBody>
