@@ -1,0 +1,118 @@
+export const CardProduct = [
+  {
+    id: 1,
+    name: "Pyjamas & Nightware",
+    type: "Cloths",
+    src: "https://cdn.pixelbin.io/v2/black-bread-289bfa/XUefL6/wrkr/original/mothercare/banner/318_202309060606_MC_ShopByCategory_Pyjamas_&_Nightwear_25.08.23@1.25x_100.jpg",
+    discription: "Stroller for kids with mosqito net and lightweight",
+    price: " 600",
+    qty: 1,
+  },
+
+  {
+    id: 2,
+    name: "Body Suits",
+    type: "Cloths",
+    src: "https://cdn.pixelbin.io/v2/black-bread-289bfa/XUefL6/wrkr/original/mothercare/banner/318_202309110440_Bodysuits_Revised.jpg",
+    discription: "joggers and track pant which makes babies comfort",
+    price: " 650",
+    qty: 1,
+  },
+
+  {
+    id: 3,
+    name: "Layering & Outwear",
+    type: "Products",
+    src: "https://cdn.pixelbin.io/v2/black-bread-289bfa/XUefL6/wrkr/original/mothercare/banner/318_202309070319_MC_ShopByCategory_Layering&Outerwear_25.08.23@1.25x_100.jpg",
+    discription: " Stroller for kids with mosqito net and lightweight",
+    price: " 600",
+    qty: 1,
+  },
+
+  {
+    id: 4,
+    name: "Casual Dress",
+    type: "Cloths",
+    src: "https://cdn.pixelbin.io/v2/black-bread-289bfa/XUefL6/wrkr/original/mothercare/banner/318_202309060605_MC_ShopByCategory_casual_dresses_28.08.23@1.25x_100.jpg",
+    discription: "joggers and track pant which makes babies comfort",
+    price: " 700",
+    qty: 1,
+  },
+
+  {
+    id: 5,
+    name: "Diaper Bag",
+    type: "Products",
+    src: "https://cdn.pixelbin.io/v2/black-bread-289bfa/XUefL6/wrkr/original/mothercare/banner/318_202309060558_MC_ShopByCategory_Diaper_Bags__28.08.23@1.25x_100.jpg",
+    discription: "Diapper for kids no leackage problem",
+    price: " 800",
+    qty: 1,
+  },
+
+  {
+    id: 6,
+    name: "Maternity Essential",
+    type: "Cloths",
+    src: "https://cdn.pixelbin.io/v2/black-bread-289bfa/XUefL6/wrkr/original/mothercare/banner/318_202309060606_MC_ShopByCategory_Maternity_Essentials_28.08.23@1.25x_100.jpg",
+    discription: "Maternity Dress for Moms easy and comfort for mom's",
+    price: " 1000",
+    qty: 1,
+  },
+
+  {
+    id: 7,
+    name: "Toweling",
+    type: "Products",
+    src: "https://cdn.pixelbin.io/v2/black-bread-289bfa/XUefL6/wrkr/original/mothercare/banner/318_202309060559_MC_ShopByCategory_Towelling__28.08.23@1.25x_100.jpg",
+    discription:
+      "Hippo cuddle and Dry hooded Towel , which gives baby a fresh feel",
+    price: "400",
+    qty: 1,
+  },
+
+  {
+    id: 8,
+    name: "BathPlastic & Accessories",
+    type: "Products",
+    src: "https://cdn.pixelbin.io/v2/black-bread-289bfa/XUefL6/wrkr/original/mothercare/banner/318_202309060556_MC_ShopByCategory_Bath_Plastics_&_Accessories__28.08.23@1.25x_100.jpg",
+    discription: "Feeding Bottle for new born babys for good milk ",
+    price: "300",
+    qty: 1,
+  },
+  {
+    id: 9,
+    name: "Sets & Dungarees",
+    type: "Products",
+    src: "https://cdn.pixelbin.io/v2/black-bread-289bfa/XUefL6/wrkr/original/mothercare/banner/318_202309060607_MC_ShopByCategory_Sets_&_Dungrees_28.08.23@1.25x_100.jpg",
+    discription: "Stroller for kids with mosqito net and lightweight",
+    price: "3000",
+    qty: 1,
+  },
+  {
+    id: 10,
+    name: "Joggers & Trackpants",
+    type: "products",
+    src: "https://cdn.pixelbin.io/v2/black-bread-289bfa/XUefL6/wrkr/original/mothercare/banner/318_202309060607_MC_ShopByCategory_Shorts_&_Joggers_28.08.23@1.25x_100.jpg",
+    discription: "joggers and track pant which makes babies comfort",
+    price: "1000",
+    qty: 1,
+  },
+  {
+    id: 11,
+    name: "Tops & Tees",
+    type: "products",
+    src: "https://cdn.pixelbin.io/v2/black-bread-289bfa/XUefL6/wrkr/original/mothercare/banner/318_202309060604_MC_ShopByCategory_baby_clothing_28.08.23.jpg",
+    discription: "Tops and tees which gives you fresh air for us",
+    price: "1000",
+    qty: 1,
+  },
+  {
+    id: 12,
+    name: "Nursury Collection",
+    type: "products",
+    src: "https://cdn.pixelbin.io/v2/black-bread-289bfa/XUefL6/wrkr/original/mothercare/banner/318_202309060558_MC_ShopByCategory_Nursery_Collection_28.08.23@1.25x_100.jpg",
+    discription: "Nursury collection for babies to get Nursery items",
+    price: "1000",
+    qty: 1,
+  },
+];

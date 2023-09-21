@@ -1,0 +1,47 @@
+#bosss div{
+    margin: 5px;
+
+}
+.our{
+    text-align: center;
+    
+}
+.thayott{
+    padding-top: 4em;
+}
+.view{
+    padding-top: 3em;
+    background-color: #b35946;
+    
+}
+.contu{
+    padding-left: 0em;
+}
+.navu{
+    padding-top: 3em;
+}
+.search-div{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: medium;
+    position: relative;
+    left: 550px;
+    /* width: 500px; */ 
+    /* height: 100%; */
+   
+  
+
+}
+.bg-image{
+    transition: .5s;
+}
+.bg-image:hover{
+    transform: scale(1.05);
+}
+.paydown{
+    padding-top: 15em;
+}
+.suba{
+    display: flex;
+    flex-direction: row;
+}
