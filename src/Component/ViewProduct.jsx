@@ -61,15 +61,14 @@ const ViewProduct = () => {
                    <div>
                      <span role="img" aria-label="star">
                        ⭐️⭐️⭐️⭐️⭐️     (276+ user Ratings)
-                     </span>
+            </span>
                        <p>
-                       <br/>
-                          What is Lorem Ipsum?
-                         Lorem Ipsum is simply dummy text of the printing and typesetting 
-                         industry. Lorem Ipsum has been the industry's standard dummy text ever since 
-                         the 1500s, when an unknown printer took a galley of type and scrambled it to make a 
-                         type specimen book. It has survived not only five centuries, but also the leap into 
-                         electronic typesetting.</p>
+                       
+                       Introducing our premium baby product, designed with your little one in mind.
+                       Crafted with care and safety in focus, our baby product offers comfort, convenience,
+                       and peace of mind for parents. It's the perfect addition to your baby's daily routine, providing
+                       comfort and support during those precious early years. Elevate your parenting experience with our
+                      trusted baby product.</p>
                        </div>
                        
                        <MDBCol 
