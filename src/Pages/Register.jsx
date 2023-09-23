@@ -11,7 +11,7 @@ import {
   MDBIcon,
   MDBCheckbox,
 } from "mdb-react-ui-kit";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { myContext } from "../Context/Context";
 
 function Register() {
@@ -19,6 +19,7 @@ function Register() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
 
   const HandleSubmit = (event) => {
     event.preventDefault();
@@ -28,6 +29,7 @@ function Register() {
     alert(
       "User Registration Succesfully Completed...... Please go to Login Page"
     );
+    navigate('/login')
   };
 
   return (

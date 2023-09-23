@@ -23,7 +23,7 @@ const Adminadd = () => {
             src: image 
         }])
         alert("Product Added Successfully")
-        navigate("/admhome")
+        navigate("/admpath")
     }
     return(
         <>

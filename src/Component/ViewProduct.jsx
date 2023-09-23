@@ -11,18 +11,20 @@ import "./Cardsss.css";
 const ViewProduct = () => {
   const { products, cartt, setCartt } = useContext(myContext);
   const { id } = useParams();
-  const dataa = products.filter((item) => item.id === parseInt(id));
   const {isLoggedIn}=useContext(myContext);
   const navigate = useNavigate();
-
+  
+  const dataa = products.filter((item) => item.id === parseInt(id));
+  
   const productid = () => {
-    if (cartt.includes(dataa[0])) {
+  if (cartt.includes(dataa[0])) {
       alert("product is already added to cart");
     } else {
       setCartt(() => [...cartt, ...dataa]);
       alert("product succesffully added to your cart");
     }
   };
+
 
   return (
     <>
@@ -85,9 +87,7 @@ const ViewProduct = () => {
         ))}
       
       </div>
-        <MDBCardImage className="ms-0" style={{width:'2000px'}} src="https://cdn.pixelbin.io/v2/black-bread-289bfa/XUefL6/wrkr/original/mothercare/banner/333_202302210125_Artboard_1@2x_100.jpg?width=1804&height=132&mode=fill&fill=solid&fill-color=FFFFFF%20%20,https://cdn.pixelbin.io/v2/black-bread-289bfa/XUefL6/wrkr/original/mothercare/banner/333_202302210125_Artboard_1@2x_100.jpg?width=700&height=51&mode=fill&fill=solid&fill-color=FFFFFF%20780w,%20%20%20,https://cdn.pixelbin.io/v2/black-bread-289bfa/XUefL6/wrkr/original/mothercare/banner/333_202302210125_Artboard_1@2x_100.jpg?width=360&height=26&mode=fill&fill=solid&fill-color=FFFFFF%20360w-">
-
-        </MDBCardImage>
+        <MDBCardImage className="ms-0 img-fluid" src="https://cdn.pixelbin.io/v2/black-bread-289bfa/XUefL6/wrkr/original/mothercare/banner/333_202302210125_Artboard_1@2x_100.jpg?width=1804&height=132&mode=fill&fill=solid&fill-color=FFFFFF%20%20,https://cdn.pixelbin.io/v2/black-bread-289bfa/XUefL6/wrkr/original/mothercare/banner/333_202302210125_Artboard_1@2x_100.jpg?width=700&height=51&mode=fill&fill=solid&fill-color=FFFFFF%20780w,%20%20%20,https://cdn.pixelbin.io/v2/black-bread-289bfa/XUefL6/wrkr/original/mothercare/banner/333_202302210125_Artboard_1@2x_100.jpg?width=360&height=26&mode=fill&fill=solid&fill-color=FFFFFF%20360w-" />
 
      
 

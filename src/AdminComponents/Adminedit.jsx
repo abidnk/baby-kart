@@ -15,13 +15,13 @@ import { useNavigate, useParams } from 'react-router-dom';
 export default function Adminedit() {
   const { products, setProducts } = useContext(myContext);
   const { id } = useParams();
-  const edit = products.filter((item) => item.id === parseInt(id));
   const navigate = useNavigate();
-
+  
+  const edit = products.filter((item) => item.id === parseInt(id));
   const [productname, setProductname] = useState(edit.length > 0 ? edit[0].name : "");
   const [productprice, setProductprice] = useState(edit.length > 0 ? edit[0].price : "");
   const [isEdit, setIsEdit] = useState(false);
-
+  
   const confirmchange = () => {
     const updated = products.map((item) =>
       item.id === parseInt(id)
@@ -78,7 +78,7 @@ export default function Adminedit() {
                   placeholder={productname}
                   disabled={isEdit}
                   onChange={(e) => setProductname(e.target.value)}
-                />
+                     />
                 <br />
 
                 <label>AMOUNT</label>

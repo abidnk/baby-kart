@@ -30,6 +30,8 @@ function Login() {
         setIsLoggedIn(true);
         setUserContext(loggedIn.id);
         navigate("/");
+      }else{
+        alert("No User Found")
       }
       console.log(loggedIn.name)
     };
@@ -108,7 +110,7 @@ function Login() {
                   </a>
                   <p className="mb-5 pb-lg-2" style={{ color: "#393f81" }}>
                     Don't have an account?{" "}
-                    <a onClick={() => navigate("/admuser")} style={{ color: "#393f81" }}>
+                    <a onClick={() => navigate("/register")} style={{ color: "#393f81" }}>
                       Register here
                     </a>
                   </p>
