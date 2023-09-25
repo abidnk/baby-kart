@@ -31,7 +31,7 @@ function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [loggedInUserId, setLoggedInUserId] = useState(null);
   const [admindata, setAdmindata] = useState(Admindemi)
-
+  const [isAdmLoggedIn, setAdmIsLoggedIn] = useState(false);
   const setUserContext = (userID) => {
     setLoggedInUserId(userID);
   };
@@ -58,7 +58,8 @@ function App() {
           admindata,
           setAdmindata,
           userName,
-          setUserName
+          setUserName,
+          isAdmLoggedIn, setAdmIsLoggedIn
         }}
       >
         <Routes>
@@ -68,13 +69,17 @@ function App() {
           <Route path="/cart" element={<Addcart />}></Route>
           <Route path="/pay" element={<Payment />}></Route>
           <Route path="/login" element={<Login />}></Route>
+          
           <Route path="/admlogin" element={<Adminlogin />}></Route>
-          <Route path="/admhome" element={<Adminhome />}></Route>
+          {isAdmLoggedIn?(<Route path="/admhome" element={<Adminhome />}></Route>):null}
+          
           <Route path="/admpath" element={<Adminpath/>}></Route>
           <Route path="/admedit/:id" element={<Adminedit/>}></Route>
           <Route path="/admadd" element={<Adminadd/>}></Route>
           <Route path="/admuser" element={<Adminuser/>}></Route>
           <Route path="/admpro/:id" element={<ProfilePage/>}></Route>
+  
+          
 
         </Routes>
       </myContext.Provider>

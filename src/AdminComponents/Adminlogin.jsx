@@ -17,13 +17,14 @@ function Adminlogin() {
     const [email , setEmail] = useState('')
     const [password, setPassword] = useState('')
     const navigate = useNavigate();
-    const {admindata} = useContext(myContext);
+    const {admindata,isAdmLoggedIn, setAdmIsLoggedIn} = useContext(myContext);
 
 
 
     const Adminlog= () => {
         admindata.forEach(e => {
             if(e.email === email&& e.password === password){
+              setAdmIsLoggedIn(!isAdmLoggedIn)
                 navigate("/admpath")
             }else{
                 alert("Provided data Is not is the database")

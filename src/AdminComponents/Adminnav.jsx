@@ -51,7 +51,7 @@ export default function Adminnav({ size }) {
           <MDBCollapse navbar show={showBasic}>
             <MDBNavbarNav className="mr-auto mb-2 mb-lg-0">
               <MDBNavbarItem>
-              <MDBNavbarLink active aria-current="page" onClick={()=>navigate("/")}>Home</MDBNavbarLink>
+              <MDBNavbarLink active aria-current="page" onClick={()=>navigate("/")}>User Home</MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
                 <MDBNavbarLink onClick={()=>navigate("/register")}>Register</MDBNavbarLink>
