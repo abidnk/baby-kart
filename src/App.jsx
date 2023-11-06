@@ -21,7 +21,7 @@ import Adminedit from "./AdminComponents/Adminedit";
 import Adminadd from "./AdminComponents/Adminadd";
 import Adminuser from "./AdminComponents/Adminuser";
 import ProfilePage from "./AdminComponents/Adminuserdetails";
-import Preload from "./Component/Preload";
+
 
 function App() {
   const [userName, setUserName] = useState([]);
