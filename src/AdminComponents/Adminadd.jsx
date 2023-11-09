@@ -8,8 +8,8 @@ import { MDBRow,
    } from "mdb-react-ui-kit";
 
 const Adminadd = () => {
-    const [productname, setProductname] = useState();
-    const [productprice, setProductprice] = useState();
+    const [productname, setProductname] = useState("");
+    const [productprice, setProductprice] = useState("");
     const [image, setImage] = useState("");
     const {products,setProducts} = useContext(myContext);
     const navigate = useNavigate();
